@@ -31,3 +31,33 @@ Delete Items
 
 The list of Features may expand in the future.
 For now, there are no Payment systems planned which may change in the future.
+
+Here is an Overview for the directory of the project.
+I tried to gather any files wich should not be freely accesible in the app folder.
+
+Directory:
+
+    index.php
+
+    - app
+
+        - user
+            user.php
+            userdatabasehandler.php
+            usercontroller.php
+
+        - product
+            product.php
+            producthandler.php
+            productcontroller.php
+
+        databasehandler.php
+        sessionhandler.php
+
+    - public
+        home.php
+        registration.php
+
+        - viewcomponents
+            footer.php
+
